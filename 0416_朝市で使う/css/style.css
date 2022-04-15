@@ -1,0 +1,39 @@
+
+body{
+background-image:url(../img/bg-2.png); /* 画像のURLを指定       */
+background-size:contain;                 /* 画像のサイズを指定    */
+width:100%;                              /* 横幅のサイズを指定    */
+height:900px;                            /* 縦幅のサイズを指定    */
+background-repeat:  no-repeat;
+text-align: center;
+}
+
+/* .title-top{
+    position: relative;
+    margin: 75px;
+    border: 5px;
+    background-color: brown;
+    color: aliceblue;
+    height: 400px;
+    width: 800px;
+    font-size: 80px;
+} */
+
+.kuji{
+    position: relative;
+    font-size: 30px;
+    margin-top: 550px;
+    padding: 40px;
+    width: 600px;
+    display: inline-block
+}
+#startButton{
+    font-size: 30px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.result{
+    color: red;
+    font-size: 55px;
+}
